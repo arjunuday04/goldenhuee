@@ -490,24 +490,23 @@ export default function Home() {
           <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Brand */}
             <div>
-              <div className="mb-4 flex items-center gap-3">
+             <div className="mb-4 flex items-center gap-3">
   <img
     src="/GOLDENHUE GROUP.png"
-    alt="Goldenhue Group"
+    alt="GoldenHue Group"
     className="h-11 w-11 object-contain"
   />
 
   <div className="flex flex-col justify-center">
-    <div className="font-display text-[22px] font-semibold tracking-[0.02em] leading-tight text-white">
-      Goldenhue
+    <div className="font-display text-[22px] font-semibold tracking-[0.03em] leading-tight text-white">
+      GoldenHue
     </div>
 
-    <div className="text-[10px] font-medium uppercase tracking-[0.12em] leading-none text-amber-500">
+    <div className="text-[10px] font-medium uppercase tracking-[0.18em] leading-none text-amber-500">
       GROUP
     </div>
   </div>
-</div>  
-
+</div>
             {/* Services */}
             <div>
               <h4 className="mb-4 font-semibold text-white">Services</h4>
