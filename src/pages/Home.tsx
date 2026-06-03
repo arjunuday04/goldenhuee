@@ -21,18 +21,15 @@ export default function Home() {
  className="h-11 w-11 object-contain"
 />
 
-  <div className="leading-none">
-    <div className="font-display text-[22px] font-semibold tracking-[0.08em] text-black">
-      GoldenHue
-    </div>
-
-```
-<div className="mt-0 text-[10px] font-medium uppercase tracking-[0.18em] text-amber-600">
-  GROUP
-</div>
-```
-
+<div className="flex flex-col justify-center">
+  <div className="font-display text-[22px] font-semibold tracking-[0.02em] leading-tight text-black">
+    GoldenHue
   </div>
+
+  <div className="text-[10px] font-medium uppercase tracking-[0.12em] leading-none text-amber-600">
+    GROUP
+  </div>
+</div>
 </a>
           {/* Nav */}
           <nav className="hidden items-center gap-8 md:flex">
