@@ -15,18 +15,11 @@ export default function Home() {
       {/* ==================== HEADER ==================== */}
       <header className="sticky top-0 z-50 border-b border-gray-200 bg-white">
         <div className="container flex items-center justify-between py-4">
-          {/* Logo */}
-          <a href="/" className="flex items-center gap-3">
-           <img
-  src="/GOLDENHUE GROUP.png"
-  alt="GoldenHue Group"
-  className="h-12 w-auto"/>
-            <a href="/" className="flex items-center gap-3">
-  <img
-    src="/GOLDENHUE GROUP.png"
-    alt="GoldenHue Group"
-    className="h-12 w-auto"
-  />
+         {/* Logo */} <a href="/" className="flex items-center gap-3"> <img
+ src="/GOLDENHUE GROUP.png"
+ alt="GoldenHue Group"
+ className="h-11 w-11 object-contain"
+/>
 
   <div className="leading-none">
     <div className="font-display text-[22px] font-semibold tracking-[0.08em] text-black">
@@ -41,9 +34,6 @@ export default function Home() {
 
   </div>
 </a>
-
-          </a>
-
           {/* Nav */}
           <nav className="hidden items-center gap-8 md:flex">
             <a
