@@ -23,7 +23,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="font-display text-lg font-bold leading-none text-black">
-                  GoldenHue
+                  Goldenhue
                 </div>
                 <div className="text-xs font-medium uppercase tracking-widest text-amber-600">
                   Group
