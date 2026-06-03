@@ -23,7 +23,7 @@ export default function Home() {
 
 <div className="flex flex-col justify-center">
   <div className="font-display text-[22px] font-semibold tracking-[0.02em] leading-tight text-black">
-    GoldenHue
+    Goldenhue
   </div>
 
   <div className="text-[10px] font-medium uppercase tracking-[0.12em] leading-none text-amber-600">
