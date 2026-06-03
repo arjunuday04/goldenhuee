@@ -490,23 +490,23 @@ export default function Home() {
           <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Brand */}
             <div>
-              <div className="mb-4 flex items-center gap-2">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-600">
-                  <span className="font-display text-lg font-bold text-white">
-                    G
-                  </span>
-                </div>
-                <div>
-                  <div className="font-display text-lg font-bold leading-none text-white">
-                    GoldenHue
-                  </div>
-                  <div className="text-xs font-medium uppercase tracking-widest text-amber-600">
-                    Group
-                  </div>
-                </div>
-              </div>
-              <p className="text-sm">Operations & Workflow Systems</p>
-            </div>
+              <div className="mb-4 flex items-center gap-3">
+  <img
+    src="/GOLDENHUE GROUP.png"
+    alt="Goldenhue Group"
+    className="h-11 w-11 object-contain"
+  />
+
+  <div className="flex flex-col justify-center">
+    <div className="font-display text-[22px] font-semibold tracking-[0.02em] leading-tight text-white">
+      Goldenhue
+    </div>
+
+    <div className="text-[10px] font-medium uppercase tracking-[0.12em] leading-none text-amber-500">
+      GROUP
+    </div>
+  </div>
+</div>  
 
             {/* Services */}
             <div>
@@ -573,7 +573,7 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="mailto:hello@goldenhue.com"
+                    href="mailto:goldenhue@gmail.com"
                     className="transition hover:text-amber-600"
                   >
                     hello@goldenhue.com
@@ -581,15 +581,15 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+918129728804"
                     className="transition hover:text-amber-600"
                   >
-                    +91 98765 43210
+                    +91 812972 8804
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/8129728804"
                     className="transition hover:text-amber-600"
                   >
                     WhatsApp
