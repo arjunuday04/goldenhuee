@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+  --color-gold: #d4af37;
+}
+
+@layer base {
+  * {
+    border-color: #e0e0e0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #ffffff;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+
+  .gold-divider {
+    @apply h-1 w-12 bg-amber-600;
+  }
+
+  .section-spacing {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  .operational-card {
+    @apply rounded-lg border border-gray-200 bg-gray-50 p-6 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .premium-heading {
+    font-family: var(--font-display);
+    @apply text-4xl font-bold leading-tight text-black md:text-5xl lg:text-6xl;
+  }
+
+  .premium-subheading {
+    @apply text-lg leading-relaxed text-gray-600 md:text-xl;
+  }
+
+  .workflow-step-number {
+    @apply flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-amber-600 bg-white text-sm font-bold text-amber-600;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-black px-6 py-3 font-semibold text-white transition-all duration-200 hover:shadow-lg active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg border-2 border-black px-6 py-3 font-semibold text-black transition-all duration-200 hover:bg-black hover:text-white active:scale-95;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center rounded-lg bg-amber-600 px-6 py-3 font-semibold text-black transition-all duration-200 hover:shadow-lg active:scale-95;
+  }
+}
