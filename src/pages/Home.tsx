@@ -17,19 +17,10 @@ export default function Home() {
         <div className="container flex items-center justify-between py-4">
           {/* Logo */}
           <a href="/" className="flex items-center gap-3">
-            <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-600">
-                <span className="font-display text-lg font-bold text-white">G</span>
-              </div>
-              <div>
-                <div className="font-display text-lg font-bold leading-none text-black">
-                  Goldenhue
-                </div>
-                <div className="text-xs font-medium uppercase tracking-widest text-amber-600">
-                  Group
-                </div>
-              </div>
-            </div>
+           <img
+  src="/GOLDENHUE GROUP.png"
+  alt="GoldenHue Group"
+  className="h-12 w-auto"/>
           </a>
 
           {/* Nav */}
