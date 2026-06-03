@@ -21,6 +21,27 @@ export default function Home() {
   src="/GOLDENHUE GROUP.png"
   alt="GoldenHue Group"
   className="h-12 w-auto"/>
+            <a href="/" className="flex items-center gap-3">
+  <img
+    src="/GOLDENHUE GROUP.png"
+    alt="GoldenHue Group"
+    className="h-12 w-auto"
+  />
+
+  <div className="leading-none">
+    <div className="font-display text-[22px] font-semibold tracking-[0.08em] text-black">
+      GoldenHue
+    </div>
+
+```
+<div className="mt-1 text-[10px] font-medium uppercase tracking-[0.38em] text-amber-600">
+  GROUP
+</div>
+```
+
+  </div>
+</a>
+
           </a>
 
           {/* Nav */}
