@@ -490,22 +490,28 @@ export default function Home() {
           <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Brand */}
             <div>
-            <div className="mb-4 flex items-center gap-3">
-  <img
-    src="/GOLDENHUE GROUP.png"
-    alt="Goldenhue Group"
-    className="h-11 w-11 object-contain"
-  />
+           <div>
+  <div className="mb-4 flex items-center gap-3">
+    <img
+      src="/GOLDENHUE GROUP.png"
+      alt="Goldenhue Group"
+      className="h-11 w-11 object-contain"
+    />
 
-  <div className="flex flex-col leading-none">
-    <div className="font-display text-[22px] font-semibold tracking-[0.03em] text-white">
-      GoldenHue
-    </div>
+    <div className="flex flex-col leading-none">
+      <div className="font-display text-[22px] font-semibold tracking-[0.03em] text-white">
+        GoldenHue
+      </div>
 
-    <div className="mt-0 text-[10px] font-medium uppercase tracking-[0.18em] text-amber-500">
-      GROUP
+      <div className="mt-0 text-[10px] font-medium uppercase tracking-[0.18em] text-amber-500">
+        GROUP
+      </div>
     </div>
   </div>
+
+  <p className="text-sm">
+    Operations & Workflow Systems
+  </p>
 </div>
             {/* Services */}
             <div>
